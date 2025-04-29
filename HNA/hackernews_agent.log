@@ -1,0 +1,31 @@
+2025-04-29 17:20:14,562 - HackerNewsAgent - WARNING - API key non trovata come variabile d'ambiente. Utilizzo la chiave hardcoded (non consigliato per produzione)
+2025-04-29 17:20:14,574 - HackerNewsAgent - INFO - Avvio di HackerNews Agent
+2025-04-29 17:20:14,574 - HackerNewsAgent - INFO - Avvio del pipeline HackerNews Agent con limite di 10 storie delle ultime 24 ore
+2025-04-29 17:20:14,574 - HackerNewsAgent - INFO - Recupero delle storie delle ultime 24 ore (max 10)...
+2025-04-29 17:20:21,101 - HackerNewsAgent - INFO - Recuperate 10 storie recenti
+2025-04-29 17:20:21,102 - HackerNewsAgent - INFO - Creazione di riassunti accattivanti delle storie...
+2025-04-29 17:20:50,370 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-04-29 17:20:50,381 - HackerNewsAgent - INFO - Storie riassunte con successo
+2025-04-29 17:20:50,381 - HackerNewsAgent - INFO - Traduzione dei riassunti in italiano...
+2025-04-29 17:21:14,074 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-04-29 17:21:14,078 - HackerNewsAgent - INFO - Riassunti tradotti con successo
+2025-04-29 17:21:14,078 - HackerNewsAgent - INFO - Pipeline completato con successo
+2025-04-29 17:21:14,079 - HackerNewsAgent - INFO - Salvataggio delle storie tradotte su hackernews_daily_2025-04-29.md
+2025-04-29 17:21:14,080 - HackerNewsAgent - INFO - Storie salvate con successo su hackernews_daily_2025-04-29.md
+2025-04-29 17:21:14,080 - HackerNewsAgent - INFO - Processo completato con successo. Risultati salvati in hackernews_daily_2025-04-29.md
+2025-04-29 17:30:36,657 - HackerNewsAgent - INFO - Avvio di HackerNews Agent
+2025-04-29 17:30:36,657 - HackerNewsAgent - INFO - Avvio del pipeline HackerNews Agent con limite di 10 storie delle ultime 24 ore
+2025-04-29 17:30:36,657 - HackerNewsAgent - INFO - Recupero delle storie delle ultime 24 ore (max 10)...
+2025-04-29 17:30:43,016 - HackerNewsAgent - INFO - Recuperate 10 storie recenti
+2025-04-29 17:30:43,016 - HackerNewsAgent - INFO - Creazione di riassunti accattivanti delle storie...
+2025-04-29 17:30:55,628 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-04-29 17:30:55,629 - anthropic._base_client - INFO - Retrying request to /v1/messages in 0.435286 seconds
+2025-04-29 17:31:25,879 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-04-29 17:31:25,900 - HackerNewsAgent - INFO - Storie riassunte con successo
+2025-04-29 17:31:25,900 - HackerNewsAgent - INFO - Traduzione dei riassunti in italiano...
+2025-04-29 17:31:48,713 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-04-29 17:31:48,719 - HackerNewsAgent - INFO - Riassunti tradotti con successo
+2025-04-29 17:31:48,720 - HackerNewsAgent - INFO - Pipeline completato con successo
+2025-04-29 17:31:48,720 - HackerNewsAgent - INFO - Salvataggio delle storie tradotte su hackernews_daily_2025-04-29.md
+2025-04-29 17:31:48,723 - HackerNewsAgent - INFO - Storie salvate con successo su hackernews_daily_2025-04-29.md
+2025-04-29 17:31:48,724 - HackerNewsAgent - INFO - Processo completato con successo. Risultati salvati in hackernews_daily_2025-04-29.md
